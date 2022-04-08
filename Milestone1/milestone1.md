@@ -11,9 +11,9 @@ For this project, we choose to work on different databases in order to put in co
 - Happiness Dataset : [World Happiness Report up to 2022](https://www.kaggle.com/datasets/mathurinache/world-happiness-report) - John Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan Emmanuel De Neve
 
 - Weather Datasets :
-      - [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities) - University of Dayton
-      - [Temperature History of 1000 cities 1980 to 2020](https://www.kaggle.com/datasets/hansukyang/temperature-history-of-1000-cities-1980-to-2020) - Copernicus Climate Data Store
-      - [Sunshine duration by city](https://www.kaggle.com/datasets/prasertk/sunshine-duration-by-city) - Wikipedia
+    - [Daily Temperature of Major Cities](https://www.kaggle.com/datasets/sudalairajkumar/daily-temperature-of-major-cities) - University of Dayton
+    - [Temperature History of 1000 cities 1980 to 2020](https://www.kaggle.com/datasets/hansukyang/temperature-history-of-1000-cities-1980-to-2020) - Copernicus Climate Data Store
+    - [Sunshine duration by city](https://www.kaggle.com/datasets/prasertk/sunshine-duration-by-city) - Wikipedia
 
 - Economic Dataset : [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators/preview/on) - World Bank Dataset
 - Population Dataset : [World Population](https://data.worldbank.org/indicator/SP.POP.TOTL) - World Bank Dataset
