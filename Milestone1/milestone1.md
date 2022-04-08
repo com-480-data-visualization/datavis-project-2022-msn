@@ -46,6 +46,8 @@ Population might be another important factor that affects general happiness. Thi
 
 Does happiness come from God? The spiritual power could be a strong source for happiness, so we decided to use a religious dataset to find the correlation between religious beliefs and the extent of happiness. The dataset obtained from Kaggle ([Correlates of War: World Religions](https://www.kaggle.com/datasets/umichigan/world-religions)) is composed of global, national and regional data with both absolute number and percentage of population for adherents of different religions from 1945 to 2010. The problem of this dataset is still the redundancy since we are not in need of the obsolete data. The data is up to 2010 so we could use these data to predict approximately the religion distribution in recent years.
 
+The last factor that we selected for this study is people's nutrition. For that, we selscted a database comming from 
+
 We did some preliminary analysis on the last three dataset, the plots and codes can be seen in file [pre_analysis.ipynb](pre_analysis.ipynb).
 
 ## Related work :
