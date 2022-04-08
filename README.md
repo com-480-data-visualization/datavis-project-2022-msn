@@ -12,7 +12,7 @@
 
 **10% of the final grade**
 
-Please refer to [Milestone 1](Reports/Milestone_1.pdf).
+Please refer to [Milestone 1](Milestone1/Milestone1.md).
 
 
 ## Milestone 2 (Friday 6st May, 5pm)
