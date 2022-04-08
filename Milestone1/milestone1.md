@@ -15,9 +15,10 @@ For this project, we choose to work on different databases in order to put in co
     - [Temperature History of 1000 cities 1980 to 2020](https://www.kaggle.com/datasets/hansukyang/temperature-history-of-1000-cities-1980-to-2020) - Copernicus Climate Data Store
     - [Sunshine duration by city](https://www.kaggle.com/datasets/prasertk/sunshine-duration-by-city) - Wikipedia
 
-- Economic Dataset : [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators/preview/on) - World Bank Dataset
-- Population Dataset : [World Population](https://data.worldbank.org/indicator/SP.POP.TOTL) - World Bank Dataset
+- Economic Dataset : [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators/preview/on) - World Bank 
+- Population Dataset : [World Population](https://data.worldbank.org/indicator/SP.POP.TOTL) - World Bank 
 - Religion Dataset : [Correlates of War: World Religions](https://www.kaggle.com/datasets/umichigan/world-religions) - University of Michigan
+- Nutrition Dataset : [2021 Global Nutrition Report](https://globalnutritionreport.org/reports/2021-global-nutrition-report/) - UNICEF, WHO and World Bank
 
 ## Problematic :
 
