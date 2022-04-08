@@ -31,7 +31,7 @@ The objective of this work is then to determine the ingredients for human pursui
 
 ## Exploratory Data Analysis :
 
-Our primary dataset is a collection over time of countries and their associated "happiness score". This score was calculated by averaging people's answers to the question "on a scale from 1 to 10, how would you rate your happiness?". There are a myriad of other metrics we might or might not use in our analysis. For instance, the trust in government or life expectancy of the country's residents. Every score is normalized except the actual happiness score, which lives in the range [1, 10]. Interestingly enough, even though a world "half happy" would yield an average score of approximately $(1 + 10) / 2 = 5.5$, we noticed that by aggregating the happiness score of all countries, we barely miss the mark with a total of 5.38.
+Our primary dataset is a collection over time of countries and their associated "happiness score". This score was calculated by averaging people's answers to the question "on a scale from 1 to 10, how would you rate your happiness?". There are a myriad of other metrics we might or might not use in our analysis. For instance, the trust in government or life expectancy of the country's residents. Every score is normalized except the actual happiness score, which lives in the range [1, 10]. Interestingly enough, even though a world "half happy" would yield an average score of approximately (1 + 10) / 2 = 5.5, we noticed that by aggregating the happiness score of all countries, we barely miss the mark with a total of 5.38.
 
 In addition to this base data, we are cherry-picking datasets which could have an impact on one's happiness score in order to determine whether or not there exists a correlation between happiness and the particular dataset's data:
 
@@ -47,3 +47,6 @@ Population might be another important factor that affects general happiness. Thi
 Does happiness come from God? The spiritual power could be a strong source for happiness, so we decided to use a religious dataset to find the correlation between religious beliefs and the extent of happiness. The dataset obtained from Kaggle ([Correlates of War: World Religions](https://www.kaggle.com/datasets/umichigan/world-religions)) is composed of global, national and regional data with both absolute number and percentage of population for adherents of different religions from 1945 to 2010. The problem of this dataset is still the redundancy since we are not in need of the obsolete data. The data is up to 2010 so we could use these data to predict approximately the religion distribution in recent years.
 
 We did some preliminary analysis on the last three dataset, the plots and codes can be seen in file [pre_analysis.ipynb](pre_analysis.ipynb).
+
+## Related work :
+
