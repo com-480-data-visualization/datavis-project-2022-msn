@@ -54,8 +54,10 @@ We did some preliminary analysis on the last three dataset, the plots and codes 
 ## Related work :
 
 The databases that we are using have also been used for many other purposes. But the combination of these information in order to describe happiness has not been done with these tables in the past. 
-However, multiple studies in data science already dealt with the subject of happiness. For example, a report done by Lenstore company in the United Kingdom, named [Healthy lifestyle cities report 2021](https://www.lenstore.co.uk/research/healthy-lifestyle-report/) describe a similar technique done in 2021 with other databases in order to rank the best cities to live in.
+However, multiple studies in data science already dealt with the subject of happiness. For example, a report done by Lenstore company in the United Kingdom, named [Healthy lifestyle cities report 2021](https://www.lenstore.co.uk/research/healthy-lifestyle-report/) describe a similar technique done in 2021 with other databases in order to rank the best cities to live in. 
+
 Our work differs from what has been done before as we are combining multiple sets together in order to find a possible correlation between them. As the subject of happiness is very wide and subjective, this technique of merging different datasets could help us achieve a more general conclusion by taking into account lots of different factors. 
+
 For inspiration we based our work on the full World happiness report that also tries to find explanations to the data it presents. This report is internationally recognized and several people tried reproducing its conclusions (eg : [Happiness and life satisfaction](https://towardsdatascience.com/happiness-and-life-satisfaction-ecdc7d0ab9a5)) 
 
 
