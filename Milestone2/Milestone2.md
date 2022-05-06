@@ -8,7 +8,7 @@ The most significant visual element of our visualization is the world map. We wo
 
 The exhibit of happiness scores relies on different colors, and there is a color bar to show the extent of happiness. When one specific country or region is selected, a radar chart will show the variables that influence happiness scores.
 
-![hap](/Users/mcx059/Desktop/Milestone 2/img/hap.jpeg)
+![hap](/img/hap.jpeg)
 
  As to the variables, we will use two different types of visualizations. For weather-related variables, including temperature and sunshine, we will use contours to show them on the map. The relationship between the happiness score and the variable for one chosen country will be shown.
 
