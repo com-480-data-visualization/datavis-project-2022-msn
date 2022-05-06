@@ -14,7 +14,7 @@ author: MSN
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Vizualisation: "visualization" # TODO
+  Visualization: "visualization"
   About Us: "aboutme"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
