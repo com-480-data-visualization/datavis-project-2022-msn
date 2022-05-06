@@ -12,11 +12,11 @@ The exhibit of happiness scores relies on different colors, and there is a color
 
  As to the variables, we will use two different types of visualizations. For weather-related variables, including temperature and sunshine, we will use contours to show them on the map. The relationship between the happiness score and the variable for one chosen country will be shown.
 
-![wea](/Users/mcx059/Desktop/Milestone 2/img/wea.jpeg)
+![wea](./img/wea.jpeg)
 
 We will use a heat map to show the values for other variables.
 
-![eco](/Users/mcx059/Desktop/Milestone 2/img/eco.jpeg)
+![eco](./img/eco.jpeg)
 
 For this part, we will use D3.js maps and lecture 8 on maps.
 
@@ -26,15 +26,15 @@ The relationship between different variables can be shown in three sets of visua
 
 The first one is a 3D bubble plot. We can illustrate five different dimensions of information with three different features as the three axes and with varying sizes of dots and colors. 
 
-![3d](/Users/mcx059/Desktop/Milestone 2/img/3d.jpeg)
+![3d](./img/3d.jpeg)
 
 The second one is an animation of a bubble plot. We can use the animation to show the change in the variables over time. 
 
-![ani](/Users/mcx059/Desktop/Milestone 2/img/ani.jpeg)
+![ani](./img/ani.jpeg)
 
 Finally, it is insightful to use a parallel coordinates plot to show how the variables relate to each other.
 
-![pc](/Users/mcx059/Desktop/Milestone 2/img/pc.jpeg)
+![pc](./img/pc.jpeg)
 
 For this part, we will use D3.js to draw the plots and create the animation. Lecture 11 on tabular data will be helpful.
 
