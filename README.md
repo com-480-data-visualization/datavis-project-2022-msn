@@ -19,6 +19,10 @@ Please refer to [Milestone 1](Milestone1/milestone1.md).
 
 **10% of the final grade**
 
+Please refer to [Milestone 2](Milestone2/milestone2.md).
+
+You may find our visualization on the repository's [github page](https://com-480-data-visualization.github.io/datavis-project-2022-msn/)
+
 
 ## Milestone 3 (Friday 3th June, 5pm)
 
