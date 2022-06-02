@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test the map</title>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="world.js"></script>
+    <link rel="stylesheet" type="text/css" href="//github.com/downloads/lafeber/world-flags-sprite/flags32.css">
+    <link rel="stylesheet" type="text/css" href="../css/map.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="container"></div>
+        <div id="info">
+          <span class="f32"><span id="flag"></span></span>
+          <h2></h2>
+          <div class="subheader">Click countries to view history</div>
+          <div id="country-chart"></div>
+        </div>
+    </div>
+    <script src="map.js"></script>
+</body>
+</html>

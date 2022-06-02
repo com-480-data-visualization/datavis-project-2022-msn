@@ -1,0 +1,47 @@
+/* Index Style */
+
+/* Font*/
+
+@font-face {
+    font-family: Arvo;
+    src: url(../fonts/Arvo-Regular.ttf);
+}
+
+* {
+    font-family: Arvo;
+}
+
+/* Mainpage Background */
+.s1 {
+    background-image: url(../imgs/h1.jpg);
+    background-size: cover
+}
+
+.s1 h1 {
+    color: aliceblue;
+    font-size: 64px;
+    position: absolute;
+    left: 10%;
+}
+
+/* Bottom navigation bar position */
+.fp-slidesNav {
+    position: absolute;
+    left: 50% !important
+}
+
+.sld1 h1 {
+    font-size: 64px;
+    position: absolute;
+    left: 16.7%;
+    transform: translate(-50%, 0);
+}
+
+#description-map {
+    height: auto;
+    width: 20%;
+    margin: 1em;
+    /* text-align: justify; */
+    /* background-color: darkgreen;*/
+    border: 3px solid green;
+}

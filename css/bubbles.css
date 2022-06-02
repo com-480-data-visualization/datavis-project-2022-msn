@@ -1,0 +1,30 @@
+/* @font-face {
+    font-family: Arvo;
+    src: url(../fonts/Arvo-Regular.ttf);
+} */
+
+#bubble3d {
+    background-color: #00a6ff;
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    color: azure;
+    /* font-family: Arvo; */
+    font-size: 30;
+    line-height: 500px;
+}
+
+#bubbleAn {
+    background-color: hsl(37, 100%, 50%);
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    color: azure;
+    /* font-family: Arvo; */
+    font-size: 30;
+    line-height: 500px;
+}
+
+.display-flex {
+    display: flex;
+}

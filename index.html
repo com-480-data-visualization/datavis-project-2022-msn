@@ -1,13 +1,100 @@
----
-layout: home
-title: Happiness
-subtitle: Happiness comparison through time
----
+<!DOCTYPE html>
+<html lang="en">
 
-<h3>Description of the project</h3>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happiness</title>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <!-- For the index -->
+    <link rel="stylesheet" href="../lib/fullpage.min.css">
+    <link rel="stylesheet" href="../css/indexstyle.css">
+    <script src="../lib/fullpage.min.js"></script>
 
-<h3>Motivations</h3>
+    <!-- For the map -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/map.js"></script>
+    <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="../map/world.js"></script>
+    <link rel="stylesheet" type="text/css" href="//github.com/downloads/lafeber/world-flags-sprite/flags32.css">
+    <link rel="stylesheet" type="text/css" href="../css/map_copy.css">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+    <!-- For the bubble plots -->
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bubbles.css">
+</head>
+
+<body>
+    <div id="fullpage">
+        <!-- Page #1 -->
+        <div class="section s1">
+            <h1>Happiness</h1>
+        </div>
+
+        <div class="section s2">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus omnis accusamus accusantium
+                suscipit voluptate, laboriosam, itaque tempora magni ab inventore dolor! Nulla pariatur possimus
+                voluptatibus excepturi iusto, quo nostrum vel!</h1>
+        </div>
+
+        <!-- Page #2 -->
+        <div class="section s2">
+            <h1>Map</h1>
+            <div class="display-flex">
+                <div id="description-map">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem aliquam laboriosam
+                        nullaodit,assumenda voluptatum provident inventore aliquid quia officiis delectus aperiam,
+                        veniam
+                        perspiciatis quidem corporis id deleniti magni molestias.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae incidunt laudantium, at
+                        rerum exercitationem perferendis deserunt consequuntur eaque, aut, itaque tenetur veritatis
+                        assumenda expedita explicabo ab! Vel, perferendis reprehenderit. Eligendi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus suscipit, quaerat distinctio
+                        nesciunt, rerum in officia quam hic atque adipisci quas a vero eos aliquid quidem ex quo! Iure,
+                        tempore?
+                    </p>
+                </div>
+                <div id="wrapper">
+                    <div id="container"></div>
+                    <div id="info">
+                        <span class="f32"><span id="flag"></span></span>
+                        <h2></h2>
+                        <div class="subheader">Click countries to view history</div>
+                        <div id="country-chart"></div>
+                    </div>
+                </div>
+            </div>
+            <script src="../map/map.js"></script>
+        </div>
+
+        <!-- Page #3 -->
+        <div class="section s3">
+
+            <div class="slide sld1">
+                <h1>Other Visualizations</h1>
+            </div>
+
+            <div class="slide sld2">
+                <h1>Bubble Plot</h1>
+                <div class="display-flex">
+                    <div id="bubble3d">
+                        Test text
+                    </div>
+                    <div id="myDiv2" style="height:500px;width:900px"></div>
+                </div>
+                <script src="../bubble_plots/bubble3d.js"></script>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="fullpage.js"></script>
+</body>
+
+</html>

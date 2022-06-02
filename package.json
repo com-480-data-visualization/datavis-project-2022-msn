@@ -1,0 +1,8 @@
+{
+    "dependencies": {
+        "d3": "7.4.4",
+        "jquery": "3.6.0",
+        "highcharts": "10.1.0",
+        "fullpage": "1.5.1"
+    }
+}
