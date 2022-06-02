@@ -1,4 +1,4 @@
-d3.csv('../bubble_plots/bubble3d.csv', function(err, rows){
+d3.csv('bubble_plots/bubble3d.csv', function(err, rows){
 function unpack(rows, key) {
 	return rows.map(function(row)
 	{ return row[key]; });}
