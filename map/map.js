@@ -9,7 +9,7 @@
     // ).then(response => response.text());
 
     const csv = await fetch(
-      '../map/world-population.csv'
+      'map/world-population.csv'
     ).then(response => response.text());
 
     // Very simple and case-specific CSV string splitting
