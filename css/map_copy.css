@@ -4,6 +4,11 @@
   margin: 0 auto;
   padding: 0;
   overflow: visible;
+  /* Change position */
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 #container {
@@ -46,4 +51,14 @@
     padding: 0;
     border: none;
   }
+}
+
+/* The css for the radar charts */
+#country-chart .legend {
+  font-family: 'Raleway', sans-serif;
+  fill: #333333;
+}
+
+#country-chart .tooltip {
+  fill: #333333;
 }
