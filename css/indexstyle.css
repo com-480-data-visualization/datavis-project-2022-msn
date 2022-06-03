@@ -54,20 +54,29 @@ body {
     position: absolute;
     left: 12.5%;
     transform: translate(-50%, 0);
+    color: #3399cc;
+    font-family: Fredoka;
 }
 
 
 h1.subHeader {
     padding: 16px;
+    color: #3399cc;
+    font-family: Fredoka;
+    font-size: 45px;
+    margin-left: 1em;
 }
 
 #description-map {
     height: auto;
     width: 20%;
-    margin: 1em;
-    /* text-align: justify; */
+    margin-left: 1em;
+    padding: 0.5em;
+    font-size: 24px;
+    text-align: justify;
     /* background-color: darkgreen;*/
-    border: 3px solid green;
+    border: 5px solid #3399cc;
+    border-radius: 20px;
 }
 
 .s2 h1 {
@@ -83,5 +92,10 @@ h1.subHeader {
 }
 
 .s3 h1 {
-    margin-left: 2em;
+    margin-left: 1em;
+    color: #3399cc;
+    font-family: Fredoka;
+    font-size: 45px;
+    position: absolute;
+    top: 6%;
 }

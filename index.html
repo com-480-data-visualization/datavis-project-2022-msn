@@ -46,39 +46,54 @@
 
         <!-- Page #2 -->
         <div class="section s2">
-            <h1>Our project</h1>
+            <h1 style="color: #3399cc; font-family: Fredoka; font-size: 40px;">Our project</h1>
             <div class="display-flex">
                 <div>
-                    <p>Since the beginning of humanity, happiness has always been the main source of interest for all human beings. But this common goal toward which people strive, remains for many, frustratingly out of reach. To achieve this state of joy, satisfaction, contentment, and fulfillment, people always tried to use their intelligence to its fullest potential in order to provoke this famous happiness.</p>
+                    <p>Since the beginning of humanity, happiness has always been the main source of interest for all
+                        human beings. But this common goal toward which people strive, remains for many, frustratingly
+                        out of reach. To achieve this state of joy, satisfaction, contentment, and fulfillment, people
+                        always tried to use their intelligence to its fullest potential in order to provoke this famous
+                        happiness.</p>
 
-                    <p>The aim of this project is to analyze people’s happiness across the world, according to several factors. We will then, through this study, put in common multiple databases that recorded different information on people’s way of living, in order to find correlations between happiness and its circumstances.</p>
+                    <p>The aim of this project is to analyze people’s happiness across the world, according to several
+                        factors. We will then, through this study, put in common multiple databases that recorded
+                        different information on people’s way of living, in order to find correlations between happiness
+                        and its circumstances.</p>
 
-                    <p>The happiness score is calculated by averaging people's answers to the question "on a scale from 1 to 10, how would you rate your happiness?".</p>
+                    <!-- <p>The happiness score is calculated by averaging people's answers to the question "on a scale from
+                        1 to 10, how would you rate your happiness?".</p> -->
+                    <div>
+                        <h1 style="color: #3399cc; font-family: Fredoka; font-size: 40px;">Our team</h1>
+                    </div>
                     <div>
                         <img src="imgs/portrait.png" width="800px" style="margin-left: 3em">
                     </div>
 
                 </div>
-                <img src="imgs/background_2.jpeg" height="800px"
+                <img src="imgs/background_2.jpeg" height="750px"
                     style="margin-left: 5em; border: 5px solid black; border-radius: 20px;">
             </div>
         </div>
 
         <!-- Page #3 -->
         <div class="section s3">
-            <h1>Map</h1>
+            <h1>What a joyful world</h1>
             <div class="display-flex" id="refresh">
                 <div id="description-map">
-                    <p>The map visualization is a collection of different metrics, that might – or might not – impact people's happiness, divided by country. Hovering over a country will display specific information related to the category chosen on the radio button bar, while clicking on a country will compare all of the its data points (in blue) to the ones from Switzerland (in red).</p>
+                    <p>The map visualization is a collection of different metrics, that might – or might not – impact
+                        people's happiness, divided by country. Hovering over a country will display specific
+                        information related to the category chosen on the radio button bar, while clicking on a country
+                        will compare all of the its data points (in blue) to the ones from Switzerland (in red).</p>
 
-                    <p>You may <span style="font-family: 'Courier New', monospace;">shift+click</span> on multiple countries to compare Switzerland with them all at once.</p>
+                    <p>You may <span style="font-family: 'Courier New', monospace;">shift+click</span> on multiple
+                        countries to compare Switzerland with them all at once.</p>
                 </div>
                 <div id="wrapper">
                     <div id="container"></div>
                     <div id="info">
                         <span class="f32"><span id="flag"></span></span>
                         <h2></h2>
-                        <div class="subheader">Click countries to view radar</div>
+                        <div class="subheader" style="margin-bottom: 1em;">Click countries to view radar</div>
                         <div id="country-chart"></div>
                     </div>
                 </div>
@@ -123,18 +138,22 @@
         <div class="section s4">
 
             <div class="slide sld1">
-                <h1>Other Visualizations</h1>
+                <h1>The show must go on</h1>
             </div>
 
             <div class="slide sld2">
                 <h1 class="subHeader">Bubble Plot</h1>
                 <div class="display-flex">
                     <div class="bubbleDescription" id="bubble3d">
-                        <p>This bubble plot depicts the relation between multiple dimensions, namely <b>population</b>, <b>shunshine</b>, and <b>GDP</b>. The size of each data point denotes the <b>happiness score</b>, whereas the color depends on the continent the country is situated in.</p>
+                        <p>This bubble plot depicts the relation between multiple dimensions, namely <b>population</b>,
+                            <b>shunshine</b>, and <b>GDP</b>. The size of each data point denotes the <b>happiness
+                                score</b>, whereas the color depends on the continent the country is situated in.
+                        </p>
 
-                        <p>You may choose to display a certain subset of continents by selecting them directly from the right side labels.</p>
+                        <p>You may choose to display a certain subset of continents by selecting them directly from the
+                            right side labels.</p>
                     </div>
-                    <div id="myDiv2" style="height:500px;width:900px"></div>
+                    <div id="myDiv2" class="otherviz"></div>
                 </div>
                 <script src="bubble_plots/bubble3d.js"></script>
             </div>
@@ -143,11 +162,15 @@
                 <h1 class="subHeader">Bubble Animation</h1>
                 <div class="display-flex">
                     <div class="bubbleDescription" id="bubbleAn">
-                        <p>This bubble plot shows the relation. between <b>population</b> and <b>GDP</b> through time. The size of each data point denotes the <b>happiness score</b>, whereas the color depends on the continent the country is situated in.</p>
+                        <p>This bubble plot shows the relation. between <b>population</b> and <b>GDP</b> through time.
+                            The size of each data point denotes the <b>happiness score</b>, whereas the color depends on
+                            the continent the country is situated in.</p>
 
-                        <p>You may analyze the evolution between different years via the play button on the bottom timeline slider. Moreover, you can select to display the continents you wish to inspect thanks to the right side labels.</p>
+                        <p>You may analyze the evolution between different years via the play button on the bottom
+                            timeline slider. Moreover, you can select to display the continents you wish to inspect
+                            thanks to the right side labels.</p>
                     </div>
-                    <div id="myDiv" style="height:500px;width:900px"></div>
+                    <div id="myDiv" class="otherviz"></div>
                 </div>
                 <script src="bubble_plots/bubblean.js"></script>
             </div>
@@ -156,11 +179,15 @@
                 <h1 class="subHeader">Parallel Coordinates</h1>
                 <div class="display-flex">
                     <div class="bubbleDescription" id="bubble3d">
-                        <p>This plot is useful to analyze whether there exists a relation or correlation between multiple dimensions. The color depicts the happiness score; the closer it is to purple, the happier the country is.</p>
+                        <p>This plot is useful to analyze whether there exists a relation or correlation between
+                            multiple dimensions. The color depicts the happiness score; the closer it is to purple, the
+                            happier the country is.</p>
 
-                        <p>For example, eventhough the happiness score is a nice gradient, we discern the fact that the "yellow" lines are situated towards the higher values of "Temperature" whereas the "purple" ones are lower. This mighht indicate a (negative) correlation between both dimensions.</p>
+                        <p>For example, eventhough the happiness score is a nice gradient, we discern the fact that the
+                            "yellow" lines are situated towards the higher values of "Temperature" whereas the "purple"
+                            ones are lower. This mighht indicate a (negative) correlation between both dimensions.</p>
                     </div>
-                    <div id="parallel" style="height:500px;width:900px"></div>
+                    <div id="parallel" class="otherviz"></div>
                 </div>
                 <script src="js/Parallel Coordinates.js"></script>
             </div>

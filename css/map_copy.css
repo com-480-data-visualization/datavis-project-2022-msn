@@ -54,9 +54,9 @@
 }
 
 #country-chart {
-  background-color: #ffa0a058;
+  background-color: #ffffff;
   width: 21vw;
-  border: 3px solid green;
+  border: 5px solid #3399cc;
   border-radius: 20px;
 }
 
@@ -71,11 +71,8 @@
   font-size: 10px;
 }
 
-#description-map {
-  height: auto;
-  width: 20vw;
-  margin-left: 2em;
-  /* text-align: justify; */
-  /* background-color: darkgreen;*/
-  /* border: 3px solid green; */
+.highcharts-title {
+  font-size: 25px;
+  color: #3399cc;
+  /* font-family: Fredoka; */
 }
