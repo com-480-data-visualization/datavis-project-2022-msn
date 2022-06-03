@@ -5,26 +5,35 @@
 
 .bubbleDescription {
     height: 500px;
-    width: 300px;
+    width: 25%;
     font-size: 30;
     text-align: justify;
     padding: 16px;
+    border: 5px solid #3399cc;
+    border-radius: 20px;
+    margin-left: 2em;
+    font-size: 24px;
 }
 
-#bubble3d {
+/* #bubble3d {
     background-color: #00a6ff;
     color: azure;
     /* font-family: Arvo; */
-}
+/* } */
 
-#bubbleAn {
+/* #bubbleAn {
     background-color: hsl(37, 100%, 50%);
     color: azure;
     /* font-family: Arvo; */
-}
+/* } */
 
 .display-flex {
     display: flex;
     font-size: 30;
     /*line-height: 500px;*/
+}
+
+.otherviz {
+    height:100%;
+    width: 60%;
 }

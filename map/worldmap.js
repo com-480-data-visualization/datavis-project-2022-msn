@@ -2,9 +2,13 @@ const map_chart = async function(feature) {
     // data_path = "df_final_" + year.toString() + ".csv";
     const feature_list = ['hap_score', 'GDP', 'population', 'temperature', 'sunshine'];
     const name_list = ['Happiness Score', 'GDP', 'Population', 'Average Temperature', 'Average Sunshine'];
+    const minColor_list = ['#cb0505', '#e2eeff', '#efecf3', '#0093a3', '#ffd396'];
+    const maxColor_list = ['#09ce3a', '#0044a3', '#990041', '#e40c0c', '#f53610'];
+    const type_list = ['linear', 'logarithmic', 'logarithmic', 'linear', 'linear'];
+    const select_list = ['#ff8000', '#ff8000', '#ff8000', '#ff8000', '#a4edba'];
     // console.log(data_path);
     d3.csv("data/finals/df_final_2020.csv", function (err, data) {
-        // console.log(data[0]);
+        console.log(data[0]);
         const happiness_data = [];
         for (let i = 0; i < data.length; i++) {
             happiness_data.push({
@@ -81,13 +85,14 @@ const map_chart = async function(feature) {
             },
 
             colorAxis: {
-                type: 'logarithmic',
+                type: type_list[feature],
                 endOnTick: true,
                 startOnTick: true,
-                // min: 0.1,
                 // Change the color
                 // minColor: '#efecf3',
                 // maxColor: '#990041'
+                minColor: minColor_list[feature],
+                maxColor: maxColor_list[feature]
             },
 
             tooltip: {
@@ -104,7 +109,8 @@ const map_chart = async function(feature) {
                 cursor: 'pointer',
                 states: {
                     select: {
-                        color: '#a4edba',
+                        // color: '#a4edba',
+                        color: select_list[feature],
                         borderColor: 'black',
                         dashStyle: 'shortdot'
                     }

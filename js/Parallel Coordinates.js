@@ -12,12 +12,12 @@ d3.csv("data/finals/df_final_2018.csv", function (err, rows) {
       line: {
         color: unpack(rows, "region_id"),
         colorscale: [
-          [0, "blue"],
-          [0.2, "yellow"],
-          [0.4, "orange"],
-          [0.6, "black"],
-          [0.8, "green"],
-          [1, "red"],
+          [0, "#3399cc"],
+          [0.2, "#fbce40"],
+          [0.4, "#ff9140"],
+          [0.6, "#545454"],
+          [0.8, "#7ed957"],
+          [1, "#e13b76"],
         ],
       },
 
@@ -52,11 +52,13 @@ d3.csv("data/finals/df_final_2018.csv", function (err, rows) {
   ];
 
   var layout = {
-    width: 1200,
+    width: 1000,
     font: {
-      size: 18,
+      size: 16,
       color: "#7f7f7f",
+      family: "Fredoka"
     },
+    paper_bgcolor: '#FEFEE6'
   };
 
   Plotly.newPlot("parallel", data, layout);

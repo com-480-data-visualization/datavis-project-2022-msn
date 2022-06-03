@@ -179,7 +179,8 @@ d3.csv('data/bubble/df_final_2015_hap_norm.csv', function (err, data) {
         legend: {
             x: 1,
             y: 0.5
-        }
+        },
+        paper_bgcolor: '#FEFEE6'
     };
     Plotly.newPlot('myDiv2', data, layout);
 });

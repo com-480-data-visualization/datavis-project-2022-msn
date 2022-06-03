@@ -95,6 +95,7 @@ d3.csv('data/bubble/hap_gdp_pop_norm.csv', function (err, data) {
   }
 
   var layout = {
+    paper_bgcolor: '#FEFEE6',
     xaxis: {
       title: 'Population',
       type: 'log'
