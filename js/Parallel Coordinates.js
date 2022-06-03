@@ -10,14 +10,14 @@ d3.csv("data/finals/df_final_2018.csv", function (err, rows) {
       type: "parcoords",
       pad: [80, 80, 80, 80],
       line: {
-        color: unpack(rows, "hap_rank"),
+        color: unpack(rows, "region_id"),
         colorscale: [
-          [0, "red"],
-          [1, "yellow"],
-          [2, "orange"],
-          [3, "black"],
-          [4, "green"],
-          [5, "blue"],
+          [0, "blue"],
+          [0.2, "yellow"],
+          [0.4, "orange"],
+          [0.6, "black"],
+          [0.8, "green"],
+          [1, "red"],
         ],
       },
 

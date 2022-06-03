@@ -16,7 +16,8 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/maps/modules/map.js"></script>
     <script src="https://code.highcharts.com/maps/modules/accessibility.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="map/world.js"></script>
     <link rel="stylesheet" type="text/css" href="//github.com/downloads/lafeber/world-flags-sprite/flags32.css">
     <!-- TODO Optimize the layout of the map, map_copy.css is the original file -->
@@ -40,25 +41,34 @@
     <div id="fullpage">
         <!-- Page #1 -->
         <div class="section s1">
-            <h1>Happiness</h1>
+            <h1>Happiness across the World</h1>
         </div>
 
         <!-- Page #2 -->
         <div class="section s2">
             <h1>Our project</h1>
+            <div class="display-flex">
+                <div>
+                    <p>Since the beginning of humanity, happiness has always been the main source of interest for all human beings.. But this common goal toward which people strive, remains for many, frustratingly out of reach. To achieve this state of joy, satisfaction, contentment, and fulfillment, people always tried to use their intelligence to its fullest potential in order to provoke this famous happiness.</p>
 
-            <p>Since the beginning of humanity, happiness has always been the main source of interest for all human beings.. But this common goal toward which people strive, remains for many, frustratingly out of reach. To achieve this state of joy, satisfaction, contentment, and fulfillment, people always tried to use their intelligence to its fullest potential in order to provoke this famous happiness.</p>
+                    <p>The aim of this project is to analyze people’s happiness across the world, according to several factors. We will then, through this study, put in common multiple databases that recorded different information on people’s way of living, in order to find correlations between happiness and its circumstances.</p>
 
-            <p>The aim of this project is to analyze people’s happiness across the world, according to several factors. We will then, through this study, put in common multiple databases that recorded different information on people’s way of living, in order to find correlations between happiness and its circumstances.</p>
+                    <p>The happiness score is calculated by averaging people's answers to the question "on a scale from 1 to 10, how would you rate your happiness?".</p>
+                    <div>
+                        <img src="imgs/background_1.png" height="100px">
+                    </div>
 
-            <p>The happiness score is calculated by averaging people's answers to the question "on a scale from 1 to 10, how would you rate your happiness?".</p>
+                </div>
+                <img src="imgs/background_2.jpeg" height="800px"
+                    style="margin-left: 5em; border: 5px solid black; border-radius: 20px;">
+            </div>
         </div>
 
         <!-- Page #3 -->
         <div class="section s3">
             <h1>Map</h1>
             <div class="display-flex" id="refresh">
-                <!-- <div id="description-map">
+                <div id="description-map">
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem aliquam laboriosam
                         nullaodit,assumenda voluptatum provident inventore aliquid quia officiis delectus aperiam,
@@ -71,13 +81,13 @@
                         nesciunt, rerum in officia quam hic atque adipisci quas a vero eos aliquid quidem ex quo! Iure,
                         tempore?
                     </p>
-                </div> -->
+                </div>
                 <div id="wrapper">
                     <div id="container"></div>
                     <div id="info">
                         <span class="f32"><span id="flag"></span></span>
                         <h2></h2>
-                        <div class="subheader">Click countries to view history</div>
+                        <div class="subheader">Click countries to view radar</div>
                         <div id="country-chart"></div>
                     </div>
                 </div>
@@ -89,25 +99,25 @@
                     <div class="bg"></div>
                     <span class="label" onclick="refreshDraw(0)">Happiness</span>
                 </label>
-        
+
                 <label>
                     <input type="radio" name="radioBtn">
                     <div class="bg"></div>
                     <span class="label" onclick="refreshDraw(1)">GDP</span>
                 </label>
-        
+
                 <label>
                     <input type="radio" name="radioBtn">
                     <div class="bg"></div>
                     <span class="label" onclick="refreshDraw(2)">Population</span>
                 </label>
-        
+
                 <label>
                     <input type="radio" name="radioBtn">
                     <div class="bg"></div>
                     <span class="label" onclick="refreshDraw(3)">Temperature</span>
                 </label>
-        
+
                 <label>
                     <input type="radio" name="radioBtn">
                     <div class="bg"></div>

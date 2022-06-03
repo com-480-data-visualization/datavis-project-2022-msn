@@ -25,4 +25,6 @@
 
 .display-flex {
     display: flex;
+    font-size: 30;
+    /*line-height: 500px;*/
 }
