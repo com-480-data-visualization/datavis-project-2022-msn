@@ -43,6 +43,6 @@ The github page source code may be found on the [`gh-pages` branch](https://gith
 	2. `git checkout gh-pages`
 	3. run `python3 -m http.server 8888` (or any other free port) to open a local web server hosting the website
 	4. navigate to `localhost:8888` on your browser
-	5. click on `index.html`
+	5. click on `index.html` (if your browser doees not load `index.html` by default)
 
 
