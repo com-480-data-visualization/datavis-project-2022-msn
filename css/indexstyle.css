@@ -24,6 +24,10 @@
     left: 10%;
 }
 
+.s2 h1, .s2 p {
+    padding: 8px 64px 8px 64px;
+}
+
 /* Bottom navigation bar position */
 .fp-slidesNav {
     position: absolute;
@@ -35,6 +39,10 @@
     position: absolute;
     left: 16.7%;
     transform: translate(-50%, 0);
+}
+
+h1.subHeader {
+    padding: 16px;
 }
 
 #description-map {

@@ -3,26 +3,24 @@
     src: url(../fonts/Arvo-Regular.ttf);
 } */
 
-#bubble3d {
-    background-color: #00a6ff;
+.bubbleDescription {
     height: 500px;
     width: 300px;
-    text-align: center;
+    font-size: 30;
+    text-align: justify;
+    padding: 16px;
+}
+
+#bubble3d {
+    background-color: #00a6ff;
     color: azure;
     /* font-family: Arvo; */
-    font-size: 30;
-    line-height: 500px;
 }
 
 #bubbleAn {
     background-color: hsl(37, 100%, 50%);
-    height: 500px;
-    width: 300px;
-    text-align: center;
     color: azure;
     /* font-family: Arvo; */
-    font-size: 30;
-    line-height: 500px;
 }
 
 .display-flex {
