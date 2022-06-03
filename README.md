@@ -28,3 +28,21 @@ You may find our visualization on the repository's [github page](https://com-480
 
 **80% of the final grade**
 
+Our final visualization can be found on our [github page](https://com-480-data-visualization.github.io/datavis-project-2022-msn/)
+
+### Intended usage
+
+The intended usage of our website is for people to inspect the different viz and make up their own opinion on whether a particular dimension is affecting people's happiness.
+
+### Technical setup
+
+The github page source code may be found on the [`gh-pages` branch](https://github.com/com-480-data-visualization/datavis-project-2022-msn/tree/gh-pages) and may be viewed online or locally:
+- online: there is no additional setup, simply view the page at the above address
+- locally: running the website simply by clicking on the `.html` file is not an option as your browser does not like loading local files (`.csv` and `.css` files). A simple solution is to perform the following steps:
+	1. `cd` into the repository root folder
+	2. `git checkout gh-pages`
+	3. run `python3 -m http.server 8888` (or any other free port) to open a local web server hosting the website
+	4. navigate to `localhost:8888` on your browser
+	5. click on `index.html`
+
+
