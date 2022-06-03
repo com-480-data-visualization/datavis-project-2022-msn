@@ -2,9 +2,7 @@ const map_chart = async function(feature) {
     // data_path = "df_final_" + year.toString() + ".csv";
     const feature_list = ['hap_score', 'GDP', 'population', 'temperature', 'sunshine'];
     const name_list = ['Happiness Score', 'GDP', 'Population', 'Average Temperature', 'Average Sunshine'];
-    // console.log(data_path);
     d3.csv("data/finals/df_final_2020.csv", function (err, data) {
-        // console.log(data[0]);
         const happiness_data = [];
         for (let i = 0; i < data.length; i++) {
             happiness_data.push({
@@ -13,7 +11,6 @@ const map_chart = async function(feature) {
                 value: parseFloat(data[i][feature_list[feature]])
             });
         }
-        console.log(happiness_data);
 
         // Add lower case codes to the data set for inclusion in the tooltip.pointFormat
         const mapData = Highcharts.geojson(Highcharts.maps['custom/world']);
@@ -30,12 +27,10 @@ const map_chart = async function(feature) {
             const points = mapChart.getSelectedPoints();
             if (points.length) {
                 if (points.length === 1) {
-                    console.log(points);
                     document.querySelector('#info #flag')
                         .className = 'flag ' + points[0].flag;
                     document.querySelector('#info h2').innerHTML = points[0].name;
                 } else {
-                    console.log(points);
                     document.querySelector('#info #flag')
                         .className = 'flag';
                     document.querySelector('#info h2').innerHTML = 'Comparing countries';
@@ -47,7 +42,6 @@ const map_chart = async function(feature) {
                 points.forEach(function (p) {
                     countries.push(p.name);
                 })
-                console.log(countries);
                 SpiderGraph(2020, countries);
 
             } else {
