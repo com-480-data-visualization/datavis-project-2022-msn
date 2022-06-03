@@ -10,7 +10,6 @@ d3.csv('data/bubble/df_final_2015_hap_norm.csv', function (err, data) {
         }
     }
 
-    console.log(data.length);
     var europe_data = new Array();
     var asia_data = new Array();
     var southame_data = new Array();
