@@ -66,7 +66,11 @@ const map_chart = async function(feature) {
             },
 
             title: {
-                text: name_list[feature] + ' by country'
+                text: name_list[feature] + ' by country',
+                style: {
+                    fontSize: "25px",
+                    fontWeight: "bold"
+                }
             },
 
             mapNavigation: {
