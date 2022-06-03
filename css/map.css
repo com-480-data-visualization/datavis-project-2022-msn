@@ -34,6 +34,10 @@
   margin: 1em 0 0;
 }
 
+#description-map {
+  text-align: justify;
+}
+
 @media screen and (max-width: 920px) {
 
   #wrapper,
