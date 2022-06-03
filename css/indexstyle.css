@@ -68,8 +68,8 @@ h1.subHeader {
 #description-map {
     height: auto;
     width: 20%;
-    margin: 2em;
-    padding: 1em;
+    margin-left: 1em;
+    padding: 0.5em;
     font-size: 24px;
     text-align: justify;
     /* background-color: darkgreen;*/
@@ -90,10 +90,10 @@ h1.subHeader {
 }
 
 .s3 h1 {
-    margin-left: 2em;
+    margin-left: 1em;
     color: #3399cc;
     font-family: Fredoka;
     font-size: 45px;
     position: absolute;
-    top: 7%;
+    top: 6%;
 }
