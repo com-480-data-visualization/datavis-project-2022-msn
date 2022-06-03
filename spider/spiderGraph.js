@@ -13,7 +13,8 @@ function SpiderGraph(year, countries) {
 	//////////////////////// Set-Up ////////////////////////////// 
 	////////////////////////////////////////////////////////////// 
 
-	const margin = { top: 100, right: 100, bottom: 100, left: 100 };
+	// const margin = { top: 100, right: 100, bottom: 100, left: 100 };
+	const margin = { top: 60, right: 60, bottom: 60, left: 60 };
 	const width = Math.min(350, window.innerWidth - 10) - margin.left - margin.right;
 	const height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
 

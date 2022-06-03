@@ -7,7 +7,7 @@
   /* Change position */
   position: absolute;
   top: 20%;
-  left: 50%;
+  left: 60%;
   transform: translate(-50%);
 }
 
@@ -53,6 +53,13 @@
   }
 }
 
+#country-chart {
+  background-color: #ffa0a058;
+  width: 21vw;
+  border: 3px solid green;
+  border-radius: 20px;
+}
+
 /* The css for the radar charts */
 #country-chart .legend {
   font-family: 'Raleway', sans-serif;
@@ -61,4 +68,14 @@
 
 #country-chart .tooltip {
   fill: #333333;
+  font-size: 10px;
+}
+
+#description-map {
+  height: auto;
+  width: 20vw;
+  margin-left: 2em;
+  /* text-align: justify; */
+  /* background-color: darkgreen;*/
+  /* border: 3px solid green; */
 }

@@ -7,21 +7,36 @@
     src: url(../fonts/Arvo-Regular.ttf);
 }
 
+@font-face {
+    font-family: Fredoka;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+
 * {
     font-family: Arvo;
 }
 
+body {
+    background-color: rgb(254, 254, 230);
+}
+
+.display-flex {
+    display: flex;
+}
+
 /* Mainpage Background */
 .s1 {
-    background-image: url(../imgs/h1.jpg);
+    background-image: url(../imgs/background_1.png);
     background-size: cover
 }
 
 .s1 h1 {
-    color: aliceblue;
+    /* color: aliceblue; */
+    font-family: Fredoka;
     font-size: 64px;
     position: absolute;
-    left: 10%;
+    left: 7%;
+    top: 35%;
 }
 
 /* Bottom navigation bar position */
@@ -33,15 +48,22 @@
 .sld1 h1 {
     font-size: 64px;
     position: absolute;
-    left: 16.7%;
+    left: 12.5%;
     transform: translate(-50%, 0);
 }
 
-#description-map {
-    height: auto;
-    width: 20%;
-    margin: 1em;
-    /* text-align: justify; */
-    /* background-color: darkgreen;*/
-    border: 3px solid green;
+.s2 h1 {
+    margin-left: 2em;
+    font-size: 30px;
+}
+
+.s2 p {
+    width: 50vw;
+    /* position: absolute; */
+    margin-left: 2em;
+    font-size: 24px;
+}
+
+.s3 h1 {
+    margin-left: 2em;
 }

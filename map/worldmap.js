@@ -61,7 +61,8 @@ const map_chart = async function(feature) {
         const mapChart = Highcharts.mapChart('container', {
 
             chart: {
-                map: Highcharts.maps['custom/world']
+                map: Highcharts.maps['custom/world'],
+                backgroundColor: "#FEFEE6",
             },
 
             title: {
