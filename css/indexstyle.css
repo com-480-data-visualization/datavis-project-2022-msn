@@ -38,6 +38,10 @@ body {
     left: 7%;
     top: 35%;
 }
+/*
+.s2 h1, .s2 p {
+    padding: 8px 64px 8px 64px;
+}*/
 
 /* Bottom navigation bar position */
 .fp-slidesNav {
@@ -50,6 +54,20 @@ body {
     position: absolute;
     left: 12.5%;
     transform: translate(-50%, 0);
+}
+
+
+h1.subHeader {
+    padding: 16px;
+}
+
+#description-map {
+    height: auto;
+    width: 20%;
+    margin: 1em;
+    /* text-align: justify; */
+    /* background-color: darkgreen;*/
+    border: 3px solid green;
 }
 
 .s2 h1 {
